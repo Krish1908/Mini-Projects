@@ -1,6 +1,6 @@
 # Morse Code Converter
 ## Overview:
-The Morse Code Converter is a simple web application built using Streamlit and tkinter that allows users to convert text between English and Morse Code. It also provides a clean and user-friendly interface for seamless interaction.
+The Morse Code Converter is a simple application built using Streamlit and Tkinter that allows users to convert text between English and Morse Code. It also provides a clean and user-friendly interface for seamless interaction.
 
 ## Features:
 **English to Morse Code Conversion:** Convert standard English text into Morse Code.
