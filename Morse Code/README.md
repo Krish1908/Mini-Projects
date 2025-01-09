@@ -1,6 +1,8 @@
 # Morse Code Converter
-## Overview:
-The Morse Code Converter is a simple application built using Streamlit and Tkinter that allows users to convert text between English and Morse Code. It also provides a clean and user-friendly interface for seamless interaction.
+## Overview
+The **Morse Code Converter** is an interactive application built for seamless text-to-Morse code and Morse-to-text conversions. Available as a GUI (Tkinter), Web App (Streamlit), and a Telegram Bot, this project combines simplicity with versatility.
+
+Experience real-time conversions, audio playback, and a history feature that makes it easy to track past conversions. Whether you're exploring Morse code or building similar apps, this project offers a strong foundation!
 
 ## Features:
 **English to Morse Code Conversion:** Convert standard English text into Morse Code.
@@ -9,11 +11,13 @@ The Morse Code Converter is a simple application built using Streamlit and Tkint
 
 **Responsive Interface:** Clean and minimalistic UI with support for larger fonts for better readability.
 
-**Clear Button:** Reset the input and output fields instantly.
+**Multi-Platform Support:** Access via terminal, GUI (Tkinter), Web App (Streamlit), or Telegram Bot.
 
-**Real-Time Conversion:** Results are displayed immediately after the conversion process.
+**Audio Playback:** Plays audio for the selected conversion output.
 
-**Audio:** Plays audio for the selected conversion output.
+**Telegram Bot Integration:** A bot offering real-time conversions with easy-to-use commands.
+
+**History Tracking:** Maintains a history of the conversions made.
 
 ## Technologies Used:
 **Tkinter:** A GUI for Basic Python applications.
@@ -22,22 +26,27 @@ The Morse Code Converter is a simple application built using Streamlit and Tkint
 
 **Python:** Core programming language for the application logic.
 
-## Dependencies:
-Install the following python libraries:
+**SQLite:** To store the conversion history in database.
 
-playsound, pyttsx3, tkinter, streamlit.
+**Python Anywhere:** To host the telegram bot script.
+
+## Dependencies:
+These are the python libraries used:
+
+playsound, pyttsx3, tkinter, streamlit, sqlite3, python-telegram-bot.
 
 Open your terminal and install the dependencies by writing the below code.
 ```
 pip install playsound
 pip install streamlit
 pip install pyttsx3
+pip install python-telegram-bot
 ```
 Instead of writing each line, do the below instead.
 
-` pip install playsound pyttsx3 streamlit`
+` pip install playsound pyttsx3 streamlit python-telegram-bot`
 
-`tkinter` and `time` libraries are pre-installed with python, so no need to install again.
+`tkinter` and `sqlite3` libraries are pre-installed with python, so no need to install again.
 
 
 ## Available Scripts:
@@ -46,6 +55,8 @@ Instead of writing each line, do the below instead.
 **Morse_Code_02.py:** This is a python script which is deployed using Tkinter.
 
 **Morse_Code_03.py:** This is a python script which is deployed using Streamlit.
+
+**Morse_Code_04.py:** This is a python script which is deployed for Telegram Bot.
 
 
 ## Steps:
@@ -65,7 +76,7 @@ Instead of writing each line, do the below instead.
    To run Morse Code 03 (streamlit), use the below line in your terminal.
 
    `streamlit run morse_code_03.py`
-   
+
 4. Enter your text in the Input Text area.
 
 5. Select the conversion type:
@@ -77,3 +88,7 @@ Instead of writing each line, do the below instead.
 7. Click the play button to hear the output as audio.
 
 8. To clear all fields, click the Clear button.
+
+9. To use the telegram bot, open your telegram application and search for `morse_krish_bot`
+
+10. Go through the `/help` command and use the bot.
