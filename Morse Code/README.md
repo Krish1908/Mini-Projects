@@ -5,49 +5,35 @@ The **Morse Code Converter** is an interactive application built for seamless te
 Experience real-time conversions, audio playback, and a history feature that makes it easy to track past conversions. Whether you're exploring Morse code or building similar apps, this project offers a strong foundation!
 
 ## Features:
-**English to Morse Code Conversion:** Convert standard English text into Morse Code.
+- **English to Morse Code Conversion:** Convert standard English text into Morse Code.
 
-**Morse Code to English Conversion:** Decode Morse Code into readable English text.
+- **Morse Code to English Conversion:** Decode Morse Code into readable English text.
 
-**Responsive Interface:** Clean and minimalistic UI with support for larger fonts for better readability.
+- **Responsive Interface:** Clean and minimalistic UI with support for larger fonts for better readability.
 
-**Multi-Platform Support:** Access via terminal, GUI (Tkinter), Web App (Streamlit), or Telegram Bot.
+- **Multi-Platform Support:** Access via terminal, GUI (Tkinter), Web App (Streamlit), or Telegram Bot.
 
-**Audio Playback:** Plays audio for the selected conversion output.
+- **Audio Playback:** Plays audio for the selected conversion output.
 
-**Telegram Bot Integration:** A bot offering real-time conversions with easy-to-use commands.
+- **Telegram Bot Integration:** A bot offering real-time conversions with easy-to-use commands.
 
-**History Tracking:** Maintains a history of the conversions made.
+- **History Tracking:** Maintains a history of the conversions made.
 
 ## Technologies Used:
-**Tkinter:** A GUI for Basic Python applications.
+- **Tkinter:** A GUI for Basic Python applications.
 
-**Streamlit:** A powerful Python framework for building interactive web applications.
+- **Streamlit:** A powerful Python framework for building interactive web applications.
 
-**Python:** Core programming language for the application logic.
+- **Python:** Core programming language for the application logic.
 
-**SQLite:** To store the conversion history in database.
+- **SQLite:** To store the conversion history in database.
 
-**Python Anywhere:** To host the telegram bot script.
+- **Python Anywhere:** To host the telegram bot script.
 
 ## Dependencies:
-These are the python libraries used:
+Install all the required dependencies from the `requirements.txt` file. Open your terminal and run the following command:
 
-playsound, pyttsx3, tkinter, streamlit, sqlite3, python-telegram-bot.
-
-Open your terminal and install the dependencies by writing the below code.
-```
-pip install playsound
-pip install streamlit
-pip install pyttsx3
-pip install python-telegram-bot
-```
-Instead of writing each line, do the below instead.
-
-` pip install playsound pyttsx3 streamlit python-telegram-bot`
-
-`tkinter` and `sqlite3` libraries are pre-installed with python, so no need to install again.
-
+`pip install -r requirements.txt`
 
 ## Available Scripts:
 **Morse_Code_01.py:** This is a python script which is deployed for the Terminal.
@@ -65,7 +51,9 @@ Instead of writing each line, do the below instead.
 
 2. Open the code in your editor.
 
-3. To run Morse Code 01 (terminal code), use the below line in your terminal.
+3. Install the dependencies using `requirements.txt`
+
+4. To run Morse Code 01 (terminal code), use the below line in your terminal.
    
    `py morse_code_01.py`
 
@@ -77,18 +65,18 @@ Instead of writing each line, do the below instead.
 
    `streamlit run morse_code_03.py`
 
-4. Enter your text in the Input Text area.
+5. Enter your text in the Input Text area.
 
-5. Select the conversion type:
+6. Select the conversion type:
 
    English to Morse Code or Morse Code to English
 
-6. Click the Convert button to see the results in the Output area.
+7. Click the Convert button to see the results in the Output area.
 
-7. Click the play button to hear the output as audio.
+8. Click the play button to hear the output as audio.
 
-8. To clear all fields, click the Clear button.
+9. To clear all fields, click the Clear button.
 
-9. To use the telegram bot, open your telegram application and search for `morse_krish_bot`
+10. To use the telegram bot, open your telegram application and search for `morse_krish_bot`
 
-10. Go through the `/help` command and use the bot.
+11. Go through the `/help` command and use the bot.
