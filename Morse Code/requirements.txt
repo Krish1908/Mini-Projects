@@ -1,5 +1,5 @@
 playsound==1.2.2
-pyttsx3==2.90
-streamlit==1.26.0
-python-telegram-bot==20.3
-nltk==3.8.1
+pyttsx3==2.98
+streamlit==1.38.0
+python-telegram-bot==21.9
+nltk==3.9.1
