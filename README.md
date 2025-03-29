@@ -6,3 +6,6 @@ The details of the project are available [here.](https://github.com/Krish1908/Mo
 
 ## 2. Text Summarizer
 The details of the project are available [here.](https://github.com/Krish1908/Text_Summarizer)
+
+## 3. GPA CGPA Calculator
+The details of the project are available [here.](https://github.com/Krish1908/GPA-CGPA)
