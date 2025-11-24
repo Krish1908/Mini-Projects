@@ -9,3 +9,6 @@ The details of the project are available [here.](https://github.com/Krish1908/Te
 
 ## 3. GPA CGPA Calculator
 The details of the project are available [here.](https://github.com/Krish1908/GPA-CGPA)
+
+## 4. Intent-Based Cloud Resource Provisioning
+The details of the project are available [here.](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning)
