@@ -13,5 +13,5 @@ The details of the project are available [here.](https://github.com/Krish1908/GP
 ## 4. Intent-Based Cloud Resource Provisioning
 The details of the project are available [here.](https://github.com/Krish1908/Intent-Based-Cloud-Resource-Provisioning)
 
-## 4. An-End-to-End-Automated-Oil-Spill-Detection-and-Monitoring-System-Using-Deep-Learning
+## 5. An-End-to-End-Automated-Oil-Spill-Detection-and-Monitoring-System-Using-Deep-Learning
 The details of the project are available [here.](https://github.com/Krish1908/An-End-to-End-Automated-Oil-Spill-Detection-and-Monitoring-System-Using-Deep-Learning)
